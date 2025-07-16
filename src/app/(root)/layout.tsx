@@ -1,5 +1,5 @@
-import Footer from '@/components/shared/footer';
-import Header from '@/components/shared/header';
+import { Footer, Header } from '@/components';
+
 
 const RootLayout = ({
   children,

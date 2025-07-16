@@ -1,5 +1,5 @@
 'use client';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components';
 import { APP_NAME } from '@/lib/constants';
 import Image from 'next/image';
 

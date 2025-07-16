@@ -1,7 +1,7 @@
 import { Product } from '@/interfaces';
 import ProductCard from './product-card';
 
-const ProductList = ({ data, title, limit }: {data: Product[], title: string, limit?: number}) => {
+const ProductDetails = ({ data, title, limit }: {data: Product[], title: string, limit?: number}) => {
 
   const limitedData = limit ? data.slice(0, limit) : data;
 
@@ -24,4 +24,4 @@ const ProductList = ({ data, title, limit }: {data: Product[], title: string, li
    );
 }
  
-export default ProductList;
+export default ProductDetails;
