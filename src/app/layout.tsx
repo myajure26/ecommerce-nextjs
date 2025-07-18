@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL( SERVER_URL )
 };
 
-const RootLayout = ( { children}: Readonly<{ children: React.ReactNode; }> ) => {
+const RootLayout = ( { children }: Readonly<{ children: React.ReactNode; }> ) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body

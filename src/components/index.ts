@@ -14,3 +14,5 @@ export * from './ui/badge';
 export * from './ui/card';
 export * from './ui/dropdown-menu';
 export * from './ui/sheet';
+export * from './ui/label';
+export * from './ui/input';
